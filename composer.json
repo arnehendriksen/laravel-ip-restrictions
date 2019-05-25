@@ -22,7 +22,10 @@
     "laravel": {
       "providers": [
         "arnehendriksen\\LaravelIpRestrictions\\IpRestrictionsServiceProvider"
-      ]
+      ],
+      "aliases": {
+        "IpRestrictions": "arnehendriksen\\LaravelIpRestrictions\\IpRestrictions"
+      }
     }
   },
   "minimum-stability": "stable"
